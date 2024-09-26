@@ -1,0 +1,54 @@
+.navBar{
+    background-color: #F8F9FB;
+}
+
+.nav-link{
+    color: black
+}
+.material-symbols-outlined{
+    color: red;
+}
+.content-struct{
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+}
+.sideBar{
+    width: 20%;
+}
+#page-content{
+    width: 80%;
+    padding: 10px;
+}
+hr{
+    padding: 0;
+}
+.content-navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-item{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.card-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px 0;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: #FED980;
+    text-align: center;
+}
+td{
+    padding: 5px 10px;
+}
+tr,th,td{
+    border: 1px solid #99b9f9;
+}

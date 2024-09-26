@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header__top{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.header__middle{
+    display: flex;
+    width: 100%;
+    height: 145px;
+}
+.header__middle__l{
+    width: 10%;
+    height: 100%;
+}
+.logo{
+   width: 100%; 
+}
+.header__middle__c{
+    width: 50%;
+    height: 100%;
+}
+.search__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.input-group{
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px #eee solid;
+    position: relative;
+}
+.input-group>input{
+    border: none;
+    border-left: 1px #eee solid;
+    outline: none;
+}
+.searchIcon{
+    position: absolute;
+    top: 30%;
+    right: 2%;
+}
+.header__middle__r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+.loca-btn{
+    border: 1px solid #eee;
+}
+.user__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    padding: 0 20px;
+}
+.user__item{
+    display: flex;
+    column-gap: 5px;
+}
+.header__bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navBar{
+    display: flex;
+    width: 85%;
+    height: 100%;
+}
+.snd-navBar>ul{
+    display: flex;
+    list-style-type: none;
+    column-gap: 30px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.categoriesDrpdwn>button{
+    width: 210px;
+    font-weight: 700;
+}
+.contactMethod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+.contactMethod__left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contactMethod__right{
+    display: flex;
+    flex-direction: column;
+}
+.header__top__list{
+    display: flex;
+    list-style-type: none;
+    column-gap: 10px;
+}
+.phoneNo{
+    color: #34BA7F;
+}
